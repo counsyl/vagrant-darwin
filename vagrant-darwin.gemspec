@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name          = "vagrant-darwin"
   s.version       = VagrantPlugins::GuestDarwin::VERSION
   s.platform      = Gem::Platform::RUBY
-  s.authors       = [ "Justin Bronn"]
+  s.authors       = ["Justin Bronn"]
   s.email         = "justin@counsyl.com"
   s.homepage      = "https://github.counsyl.com/dev/vagrant-darwin.git"
   s.summary       = "Enables Vagrant to work with Darwin (OS X) guests"

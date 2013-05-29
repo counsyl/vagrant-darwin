@@ -3,8 +3,8 @@ vagrant-darwin
 
 This is a [Vagrant](http://www.vagrantup.com/) [plugin](http://docs.vagrantup.com/v2/plugins/index.html)
 that adds Darwin (OS X) guest support.  This requires the commercial
-[Vagrant VMware Fusion provider](http://www.vagrantup.com/vmware) to use (VirtualBox
-does not support OS X).
+[Vagrant VMware Fusion provider plugin](http://www.vagrantup.com/vmware) -- VirtualBox
+does not support OS X guests.
 
 To install this plugin, first build the gem package from within this directory:
 
