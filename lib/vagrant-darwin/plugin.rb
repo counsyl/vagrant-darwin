@@ -10,11 +10,6 @@ module VagrantPlugins
       name "Darwin guest"
       description "Darwin (OS X) guest support."
 
-      config("darwin") do
-        require_relative "config"
-        Config
-      end
-
       guest("darwin") do
         require_relative "guest"
         Guest
