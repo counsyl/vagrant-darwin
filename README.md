@@ -20,3 +20,17 @@ Next, have Vagrant install this gem by running:
 
 The `ls` invocation makes it so the latest version is installed if multiple
 gems exist.
+
+Usage
+-----
+
+For a seamless experience, use the following in your `Vagrantfile`:
+
+```ruby
+    ENV['VAGRANT_DEFAULT_PROVIDER'] = 'vmware_fusion'
+
+    # Require the `vagrant-darwin` plugin.
+    Vagrant.require_plugin 'vagrant-darwin'
+
+    Vagrant.configure('2') do |config|
+```
