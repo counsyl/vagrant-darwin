@@ -33,4 +33,5 @@ For a seamless experience, use the following in your `Vagrantfile`:
     Vagrant.require_plugin 'vagrant-darwin'
 
     Vagrant.configure('2') do |config|
+    ...
 ```
