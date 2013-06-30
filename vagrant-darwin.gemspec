@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage      = "https://github.counsyl.com/dev/vagrant-darwin.git"
   s.summary       = "Enables Vagrant to work with Darwin (OS X) guests"
   s.description   = "Enables Vagrant to work with Darwin (OS X) guests"
-  s.files         = Dir.glob('lib/**/*')
+  s.files         = Dir.glob('lib/**/*') + Dir['README.md'] + Dir['LICENSE']
   s.require_paths = ["lib"]
   s.rubygems_version  = "1.3.6"
   s.rubyforge_project = "vagrant-darwin"
