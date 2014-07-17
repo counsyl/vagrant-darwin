@@ -27,11 +27,11 @@ Usage
 For a seamless experience, use the following in your `Vagrantfile`:
 
 ```ruby
-    ENV['VAGRANT_DEFAULT_PROVIDER'] = 'vmware_fusion'
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'vmware_fusion'
 
-    # Require the `vagrant-darwin` plugin.
-    Vagrant.require_plugin 'vagrant-darwin'
+# Require the `vagrant-darwin` plugin.
+Vagrant.require_plugin 'vagrant-darwin'
 
-    Vagrant.configure('2') do |config|
-    ...
+Vagrant.configure('2') do |config|
+  # ...
 ```
